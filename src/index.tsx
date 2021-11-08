@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { RouteComponentProps } from "react-router-dom";
 import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
 declare global {
   interface Window {
@@ -23,6 +24,7 @@ window.rendermicrofront = (
     <App history={history} />,
     document.getElementById(containerId)
   );
+  serviceWorker.unregister();
 };
 
 // unmount micro frontend function
@@ -34,3 +36,5 @@ window.unmountmicrofront = (containerId: string) => {
 if (!document.getElementById("microfront-container")) {
   ReactDOM.render(<App />, document.getElementById("root"));
 }
+
+serviceWorker.unregister();
