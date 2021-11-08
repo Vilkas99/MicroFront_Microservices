@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MicroFront_Microservices/static/css/main.8ab6f918.chunk.css",
+    "main.js": "/MicroFront_Microservices/static/js/main.93f53e47.chunk.js",
+    "main.js.map": "/MicroFront_Microservices/static/js/main.93f53e47.chunk.js.map",
+    "runtime-main.js": "/MicroFront_Microservices/static/js/runtime-main.c790f089.js",
+    "runtime-main.js.map": "/MicroFront_Microservices/static/js/runtime-main.c790f089.js.map",
+    "static/js/2.376fe879.chunk.js": "/MicroFront_Microservices/static/js/2.376fe879.chunk.js",
+    "static/js/2.376fe879.chunk.js.map": "/MicroFront_Microservices/static/js/2.376fe879.chunk.js.map",
+    "index.html": "/MicroFront_Microservices/index.html",
+    "precache-manifest.30ecb0557f9964068ac61895cc84d090.js": "/MicroFront_Microservices/precache-manifest.30ecb0557f9964068ac61895cc84d090.js",
+    "service-worker.js": "/MicroFront_Microservices/service-worker.js",
+    "static/css/main.8ab6f918.chunk.css.map": "/MicroFront_Microservices/static/css/main.8ab6f918.chunk.css.map",
+    "static/js/2.376fe879.chunk.js.LICENSE.txt": "/MicroFront_Microservices/static/js/2.376fe879.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/MicroFront_Microservices/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c790f089.js",
+    "static/js/2.376fe879.chunk.js",
+    "static/css/main.8ab6f918.chunk.css",
+    "static/js/main.93f53e47.chunk.js"
+  ]
+}
