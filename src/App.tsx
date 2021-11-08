@@ -1,8 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import { RouteComponentProps } from "react-router-dom";
+import "./App.css";
 
-function App() {
+interface AppProps {
+  history?: RouteComponentProps["history"];
+}
+
+function App({ history }: AppProps) {
   return (
     <div className="App">
       <header className="App-header">
